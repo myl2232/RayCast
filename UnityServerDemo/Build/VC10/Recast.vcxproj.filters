@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Recast">
+      <UniqueIdentifier>{0b5b26f8-497a-4614-ac3f-8b522291c287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Recast\Include">
+      <UniqueIdentifier>{f2324802-3e96-45b9-b161-3dcee22bdc7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Recast\Source">
+      <UniqueIdentifier>{c1788c93-b4b0-44fa-8c0e-511a86da325f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Detour">
+      <UniqueIdentifier>{8e3d32f9-a9f9-4be4-8ad1-3e0f7fcdedfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Detour\Include">
+      <UniqueIdentifier>{7b173c16-a37a-4005-8033-f5df3551d0c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Detour\Source">
+      <UniqueIdentifier>{d92547b0-f401-4940-ba54-66eebf2df4ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo">
+      <UniqueIdentifier>{f91114cc-4d27-4d74-961d-e1a0c6556f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\Include">
+      <UniqueIdentifier>{c3431a94-cdc1-49be-b90a-b72c17d0aed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\Source">
+      <UniqueIdentifier>{0fd6893c-06fe-4895-ac4d-13a2de9b56e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugUtils">
+      <UniqueIdentifier>{c0ebead9-a3a0-49e8-a745-c931500c2076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugUtils\Include">
+      <UniqueIdentifier>{5f29ebe4-9679-4600-af00-32129fbef138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugUtils\Source">
+      <UniqueIdentifier>{da3b2b45-1117-47fe-9676-413b5e10085f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DetourCrowd">
+      <UniqueIdentifier>{3bbde02d-1fd3-423e-a8e3-66a7813c9c97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DetourCrowd\Include">
+      <UniqueIdentifier>{51f98021-51b1-41bf-b217-ed83df1b381d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DetourCrowd\Source">
+      <UniqueIdentifier>{8cb7b35a-268f-4c4a-ae8c-776fa8d67356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib">
+      <UniqueIdentifier>{3f336fe2-c705-490e-bb03-3212ad660162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DetourTileCache">
+      <UniqueIdentifier>{6899e6e8-78b9-41ac-ae00-5ba5459f9937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DetourTileCache\Include">
+      <UniqueIdentifier>{3b2d9889-fca4-4734-be2a-8f0a24515ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DetourTileCache\Source">
+      <UniqueIdentifier>{ca18907d-382c-4e73-b914-c1bf4ea020f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Recast\Include\Recast.h">
+      <Filter>Recast\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Recast\Include\RecastAlloc.h">
+      <Filter>Recast\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Recast\Include\RecastAssert.h">
+      <Filter>Recast\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Detour\Include\DetourAlloc.h">
+      <Filter>Detour\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Detour\Include\DetourAssert.h">
+      <Filter>Detour\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Detour\Include\DetourCommon.h">
+      <Filter>Detour\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Detour\Include\DetourNavMesh.h">
+      <Filter>Detour\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Detour\Include\DetourNavMeshBuilder.h">
+      <Filter>Detour\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Detour\Include\DetourNavMeshQuery.h">
+      <Filter>Detour\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Detour\Include\DetourNode.h">
+      <Filter>Detour\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\ChunkyTriMesh.h">
+      <Filter>Demo\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\ConvexVolumeTool.h">
+      <Filter>Demo\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\CrowdTool.h">
+      <Filter>Demo\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Filelist.h">
+      <Filter>Demo\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\imgui.h">
+      <Filter>Demo\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\imguiRenderGL.h">
+      <Filter>Demo\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\InputGeom.h">
+      <Filter>Demo\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\MeshLoaderObj.h">
+      <Filter>Demo\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\NavMeshTesterTool.h">
+      <Filter>Demo\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OffMeshConnectionTool.h">
+      <Filter>Demo\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\PerfTimer.h">
+      <Filter>Demo\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Sample.h">
+      <Filter>Demo\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Sample_Debug.h">
+      <Filter>Demo\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Sample_SoloMesh.h">
+      <Filter>Demo\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Sample_TempObstacles.h">
+      <Filter>Demo\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Sample_TileMesh.h">
+      <Filter>Demo\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\SampleInterfaces.h">
+      <Filter>Demo\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\SlideShow.h">
+      <Filter>Demo\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Contrib\stb_image.h">
+      <Filter>Demo\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Contrib\stb_truetype.h">
+      <Filter>Demo\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\TestCase.h">
+      <Filter>Demo\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\ValueHistory.h">
+      <Filter>Demo\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DebugUtils\Include\DebugDraw.h">
+      <Filter>DebugUtils\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DebugUtils\Include\DetourDebugDraw.h">
+      <Filter>DebugUtils\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DebugUtils\Include\RecastDebugDraw.h">
+      <Filter>DebugUtils\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DebugUtils\Include\RecastDump.h">
+      <Filter>DebugUtils\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DetourCrowd\Include\DetourCrowd.h">
+      <Filter>DetourCrowd\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DetourCrowd\Include\DetourLocalBoundary.h">
+      <Filter>DetourCrowd\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DetourCrowd\Include\DetourObstacleAvoidance.h">
+      <Filter>DetourCrowd\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DetourCrowd\Include\DetourPathCorridor.h">
+      <Filter>DetourCrowd\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DetourCrowd\Include\DetourPathQueue.h">
+      <Filter>DetourCrowd\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DetourCrowd\Include\DetourProximityGrid.h">
+      <Filter>DetourCrowd\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Contrib\fastlz\fastlz.h">
+      <Filter>Contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DetourTileCache\Include\DetourTileCache.h">
+      <Filter>DetourTileCache\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DetourTileCache\Include\DetourTileCacheBuilder.h">
+      <Filter>DetourTileCache\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Recast\Source\Recast.cpp">
+      <Filter>Recast\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Recast\Source\RecastAlloc.cpp">
+      <Filter>Recast\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Recast\Source\RecastArea.cpp">
+      <Filter>Recast\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Recast\Source\RecastContour.cpp">
+      <Filter>Recast\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Recast\Source\RecastFilter.cpp">
+      <Filter>Recast\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Recast\Source\RecastLayers.cpp">
+      <Filter>Recast\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Recast\Source\RecastMesh.cpp">
+      <Filter>Recast\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Recast\Source\RecastMeshDetail.cpp">
+      <Filter>Recast\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Recast\Source\RecastRasterization.cpp">
+      <Filter>Recast\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Recast\Source\RecastRegion.cpp">
+      <Filter>Recast\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Detour\Source\DetourAlloc.cpp">
+      <Filter>Detour\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Detour\Source\DetourCommon.cpp">
+      <Filter>Detour\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Detour\Source\DetourNavMesh.cpp">
+      <Filter>Detour\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Detour\Source\DetourNavMeshBuilder.cpp">
+      <Filter>Detour\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Detour\Source\DetourNavMeshQuery.cpp">
+      <Filter>Detour\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Detour\Source\DetourNode.cpp">
+      <Filter>Detour\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ChunkyTriMesh.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ConvexVolumeTool.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CrowdTool.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Filelist.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgui.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imguiRenderGL.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\InputGeom.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\main.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MeshLoaderObj.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NavMeshTesterTool.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OffMeshConnectionTool.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PerfTimer.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample_Debug.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample_SoloMesh.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample_TempObstacles.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample_TileMesh.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SampleInterfaces.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SlideShow.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestCase.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ValueHistory.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DebugUtils\Source\DebugDraw.cpp">
+      <Filter>DebugUtils\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DebugUtils\Source\RecastDebugDraw.cpp">
+      <Filter>DebugUtils\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DebugUtils\Source\RecastDump.cpp">
+      <Filter>DebugUtils\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DetourCrowd\Source\DetourCrowd.cpp">
+      <Filter>DetourCrowd\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DetourCrowd\Source\DetourLocalBoundary.cpp">
+      <Filter>DetourCrowd\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DetourCrowd\Source\DetourObstacleAvoidance.cpp">
+      <Filter>DetourCrowd\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DetourCrowd\Source\DetourPathCorridor.cpp">
+      <Filter>DetourCrowd\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DetourCrowd\Source\DetourPathQueue.cpp">
+      <Filter>DetourCrowd\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DetourCrowd\Source\DetourProximityGrid.cpp">
+      <Filter>DetourCrowd\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Contrib\fastlz\fastlz.c">
+      <Filter>Contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DetourTileCache\Source\DetourTileCache.cpp">
+      <Filter>DetourTileCache\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DetourTileCache\Source\DetourTileCacheBuilder.cpp">
+      <Filter>DetourTileCache\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DebugUtils\Source\DetourDebugDraw-Server.cpp">
+      <Filter>DebugUtils\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

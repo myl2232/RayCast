@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Recast">
+      <UniqueIdentifier>{d5b3288a-c493-4ecf-951e-e2301bd9dc38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Detour">
+      <UniqueIdentifier>{6f982c47-61d8-4256-9a1a-a8a7eb2122ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Detour">
+      <UniqueIdentifier>{a3894c2b-1d42-4ace-8d97-8308a7601f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Recast">
+      <UniqueIdentifier>{4518efea-d37d-43b5-85a0-d4ea2e80a6a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DetourCrowd">
+      <UniqueIdentifier>{bd748d86-b325-4fc1-9f30-d74e5ed140a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DetourCrowd">
+      <UniqueIdentifier>{831fc2f3-b329-4027-bf69-b2e9cafb0b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\UnityNavMesh">
+      <UniqueIdentifier>{470bbc91-a102-4125-9dda-dea59e5fe1a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UnityNavMesh">
+      <UniqueIdentifier>{63c85d3d-8e20-47f4-9cbb-7242b1bb0a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DebugUtils">
+      <UniqueIdentifier>{409a71ee-f983-4336-ba8a-68d048bafb6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DebugUtils">
+      <UniqueIdentifier>{6d921658-5578-4795-8ee9-c7ff7107fd04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DetourTileCache">
+      <UniqueIdentifier>{ecc13510-ee9b-43fd-960d-39829d1090ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DetourTileCache">
+      <UniqueIdentifier>{2ffd9b2d-59ca-41dd-a317-cd736dd00043}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Detour\Include\DetourAlloc.h">
+      <Filter>头文件\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Detour\Include\DetourAssert.h">
+      <Filter>头文件\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Detour\Include\DetourCommon.h">
+      <Filter>头文件\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Detour\Include\DetourMath.h">
+      <Filter>头文件\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Detour\Include\DetourNavMesh.h">
+      <Filter>头文件\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Detour\Include\DetourNavMeshBuilder.h">
+      <Filter>头文件\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Detour\Include\DetourNavMeshQuery.h">
+      <Filter>头文件\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Detour\Include\DetourNode.h">
+      <Filter>头文件\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Detour\Include\DetourStatus.h">
+      <Filter>头文件\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Recast\Include\Recast.h">
+      <Filter>头文件\Recast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Recast\Include\RecastAlloc.h">
+      <Filter>头文件\Recast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Recast\Include\RecastAssert.h">
+      <Filter>头文件\Recast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DetourCrowd\Include\DetourCrowd.h">
+      <Filter>头文件\DetourCrowd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DetourCrowd\Include\DetourLocalBoundary.h">
+      <Filter>头文件\DetourCrowd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DetourCrowd\Include\DetourObstacleAvoidance.h">
+      <Filter>头文件\DetourCrowd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DetourCrowd\Include\DetourPathCorridor.h">
+      <Filter>头文件\DetourCrowd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DetourCrowd\Include\DetourPathQueue.h">
+      <Filter>头文件\DetourCrowd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DetourCrowd\Include\DetourProximityGrid.h">
+      <Filter>头文件\DetourCrowd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Interface\UnityNavMesh.h">
+      <Filter>头文件\UnityNavMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Interface\UnityTileMesh.h">
+      <Filter>头文件\UnityNavMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Interface\ChunkyTriMesh.h">
+      <Filter>头文件\UnityNavMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Interface\InputGeom.h">
+      <Filter>头文件\UnityNavMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Interface\UnityInputMesh.h">
+      <Filter>头文件\UnityNavMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DebugUtils\Include\DebugDraw.h">
+      <Filter>头文件\DebugUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DebugUtils\Include\DetourDebugDraw.h">
+      <Filter>头文件\DebugUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DebugUtils\Include\RecastDebugDraw.h">
+      <Filter>头文件\DebugUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DebugUtils\Include\RecastDump.h">
+      <Filter>头文件\DebugUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DetourTileCache\Include\DetourTileCache.h">
+      <Filter>头文件\DetourTileCache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DetourTileCache\Include\DetourTileCacheBuilder.h">
+      <Filter>头文件\DetourTileCache</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Detour\Source\DetourAlloc.cpp">
+      <Filter>源文件\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Detour\Source\DetourCommon.cpp">
+      <Filter>源文件\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Detour\Source\DetourNavMesh.cpp">
+      <Filter>源文件\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Detour\Source\DetourNavMeshBuilder.cpp">
+      <Filter>源文件\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Detour\Source\DetourNavMeshQuery.cpp">
+      <Filter>源文件\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Detour\Source\DetourNode.cpp">
+      <Filter>源文件\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Recast\Source\Recast.cpp">
+      <Filter>源文件\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Recast\Source\RecastAlloc.cpp">
+      <Filter>源文件\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Recast\Source\RecastArea.cpp">
+      <Filter>源文件\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Recast\Source\RecastContour.cpp">
+      <Filter>源文件\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Recast\Source\RecastFilter.cpp">
+      <Filter>源文件\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Recast\Source\RecastLayers.cpp">
+      <Filter>源文件\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Recast\Source\RecastMesh.cpp">
+      <Filter>源文件\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Recast\Source\RecastMeshDetail.cpp">
+      <Filter>源文件\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Recast\Source\RecastRasterization.cpp">
+      <Filter>源文件\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Recast\Source\RecastRegion.cpp">
+      <Filter>源文件\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Interface\UnityPluginInterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DetourCrowd\Source\DetourCrowd.cpp">
+      <Filter>源文件\DetourCrowd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DetourCrowd\Source\DetourLocalBoundary.cpp">
+      <Filter>源文件\DetourCrowd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DetourCrowd\Source\DetourObstacleAvoidance.cpp">
+      <Filter>源文件\DetourCrowd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DetourCrowd\Source\DetourPathCorridor.cpp">
+      <Filter>源文件\DetourCrowd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DetourCrowd\Source\DetourPathQueue.cpp">
+      <Filter>源文件\DetourCrowd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DetourCrowd\Source\DetourProximityGrid.cpp">
+      <Filter>源文件\DetourCrowd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Interface\UnityNavMesh.cpp">
+      <Filter>源文件\UnityNavMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Interface\UnityTileMesh.cpp">
+      <Filter>源文件\UnityNavMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Interface\ChunkyTriMesh.cpp">
+      <Filter>源文件\UnityNavMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Interface\InputGeom.cpp">
+      <Filter>源文件\UnityNavMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Interface\UnityInputMesh.cpp">
+      <Filter>源文件\UnityNavMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DebugUtils\Source\DebugDraw.cpp">
+      <Filter>源文件\DebugUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DebugUtils\Source\DetourDebugDraw.cpp">
+      <Filter>源文件\DebugUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DebugUtils\Source\RecastDebugDraw.cpp">
+      <Filter>源文件\DebugUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DebugUtils\Source\RecastDump.cpp">
+      <Filter>源文件\DebugUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DetourTileCache\Source\DetourTileCache.cpp">
+      <Filter>源文件\DetourTileCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DetourTileCache\Source\DetourTileCacheBuilder.cpp">
+      <Filter>源文件\DetourTileCache</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

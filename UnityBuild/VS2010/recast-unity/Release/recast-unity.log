@@ -1,0 +1,65 @@
+﻿  DebugDraw.cpp
+  DetourDebugDraw.cpp
+  RecastDebugDraw.cpp
+  RecastDump.cpp
+  DetourCrowd.cpp
+  DetourLocalBoundary.cpp
+  DetourObstacleAvoidance.cpp
+  DetourPathCorridor.cpp
+  DetourPathQueue.cpp
+  DetourProximityGrid.cpp
+  DetourTileCache.cpp
+  DetourTileCacheBuilder.cpp
+  DetourAlloc.cpp
+  DetourCommon.cpp
+  DetourNavMesh.cpp
+  DetourNavMeshBuilder.cpp
+  DetourNavMeshQuery.cpp
+  DetourNode.cpp
+  ChunkyTriMesh.cpp
+  InputGeom.cpp
+..\..\..\Interface\InputGeom.cpp(168): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+..\..\..\Interface\InputGeom.cpp(196): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+..\..\..\Interface\InputGeom.cpp(253): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\Interface\InputGeom.cpp(268): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\Interface\InputGeom.cpp(273): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\Interface\InputGeom.cpp(288): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  Compiling...
+  UnityInputMesh.cpp
+..\..\..\Interface\UnityInputMesh.cpp(142): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+..\..\..\Interface\UnityInputMesh.cpp(182): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\Interface\UnityInputMesh.cpp(230): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+  UnityNavMesh.cpp
+..\..\..\Interface\UnityNavMesh.cpp(157): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+  UnityPluginInterface.cpp
+..\..\..\Interface\UnityPluginInterface.cpp(254): warning C4018: '>=': signed/unsigned mismatch
+..\..\..\Interface\UnityPluginInterface.cpp(305): warning C4018: '>=': signed/unsigned mismatch
+  UnityTileMesh.cpp
+  Recast.cpp
+  RecastAlloc.cpp
+  RecastArea.cpp
+  RecastContour.cpp
+  RecastFilter.cpp
+  RecastLayers.cpp
+  RecastMesh.cpp
+  RecastMeshDetail.cpp
+  RecastRasterization.cpp
+  RecastRegion.cpp
+     Creating library C:\WorkSpace\recast-unity-server\UnityBuild\VS2010\../../UnityBuild/Release\recast-unity.lib and object C:\WorkSpace\recast-unity-server\UnityBuild\VS2010\../../UnityBuild/Release\recast-unity.exp
+  Generating code
+  0 of 471 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  recast-unity.vcxproj -> C:\WorkSpace\recast-unity-server\UnityBuild\VS2010\../../UnityBuild/Release\recast-unity.dll
+  recast-unity.vcxproj -> C:\WorkSpace\recast-unity-server\UnityBuild\VS2010\../../UnityBuild/Release\recast-unity.pdb (Full PDB)

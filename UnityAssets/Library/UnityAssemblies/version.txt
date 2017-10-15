@@ -1,0 +1,26 @@
+5.6.2f1:3.1.0.0
+StandaloneWindows
+E:/Unity5.6.2/build/WindowsEditor/Data/Managed/UnityEngine.dll
+E:/Unity5.6.2/build/WindowsEditor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+E:/Unity5.6.2/build/WindowsEditor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+E:/Unity5.6.2/build/WindowsEditor/Data/UnityExtensions/Unity/PerformanceTesting/UnityEngine.PerformanceTesting.dll
+E:/Unity5.6.2/build/WindowsEditor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll
+E:/Unity5.6.2/build/WindowsEditor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll
+E:/Unity5.6.2/build/WindowsEditor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll
+E:/Unity5.6.2/build/WindowsEditor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll
+E:/Unity5.6.2/build/WindowsEditor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll
+E:/Unity5.6.2/build/WindowsEditor/Data/Managed/UnityEditor.dll
+E:/Unity5.6.2/build/WindowsEditor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll
+E:/Unity5.6.2/build/WindowsEditor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll
+E:/Unity5.6.2/build/WindowsEditor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll
+E:/Unity5.6.2/build/WindowsEditor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll
+E:/Unity5.6.2/build/WindowsEditor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll
+E:/Unity5.6.2/build/WindowsEditor/Data/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll
+E:/Unity5.6.2/build/WindowsEditor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll
+E:/Unity5.6.2/build/WindowsEditor/Data/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll
+E:/Unity5.6.2/build/WindowsEditor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll
+E:/Unity5.6.2/build/WindowsEditor/Data/Managed/UnityEditor.Graphs.dll
+E:/Unity5.6.2/build/AndroidPlayer/UnityEditor.Android.Extensions.dll
+E:/Unity5.6.2/build/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+E:/Unity5.6.2/build/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll

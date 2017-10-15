@@ -1,0 +1,12 @@
+﻿  UnityPluginInterface.cpp
+..\..\..\Interface\UnityPluginInterface.cpp(254): warning C4018: '>=': signed/unsigned mismatch
+..\..\..\Interface\UnityPluginInterface.cpp(305): warning C4018: '>=': signed/unsigned mismatch
+  UnityTileMesh.cpp
+     Creating library C:\WorkSpace\recast-unity-server\UnityBuild\VS2010\x64\Release\recast-unity.lib and object C:\WorkSpace\recast-unity-server\UnityBuild\VS2010\x64\Release\recast-unity.exp
+  Generating code
+  73 of 481 functions (15.2%) were compiled, the rest were copied from previous compilation.
+    4 functions were new in current compilation
+    27 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  recast-unity.vcxproj -> C:\WorkSpace\recast-unity-server\UnityBuild\VS2010\x64\Release\recast-unity.dll
+  recast-unity.vcxproj -> C:\WorkSpace\recast-unity-server\UnityBuild\VS2010\x64\Release\recast-unity.pdb (Full PDB)

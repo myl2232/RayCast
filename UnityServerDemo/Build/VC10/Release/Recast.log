@@ -1,0 +1,20 @@
+﻿  main.cpp
+C:\WorkSpace\recast-unity-server\DebugUtils\Include\DebugDraw.h(208): warning C4100: 'state': unreferenced formal parameter
+C:\WorkSpace\recast-unity-server\DebugUtils\Include\DebugDraw.h(213): warning C4100: 'uv': unreferenced formal parameter
+C:\WorkSpace\recast-unity-server\DebugUtils\Include\DebugDraw.h(213): warning C4100: 'color': unreferenced formal parameter
+C:\WorkSpace\recast-unity-server\DebugUtils\Include\DebugDraw.h(213): warning C4100: 'pos': unreferenced formal parameter
+C:\WorkSpace\recast-unity-server\DebugUtils\Include\DebugDraw.h(214): warning C4100: 'v': unreferenced formal parameter
+C:\WorkSpace\recast-unity-server\DebugUtils\Include\DebugDraw.h(214): warning C4100: 'u': unreferenced formal parameter
+C:\WorkSpace\recast-unity-server\DebugUtils\Include\DebugDraw.h(214): warning C4100: 'color': unreferenced formal parameter
+C:\WorkSpace\recast-unity-server\DebugUtils\Include\DebugDraw.h(214): warning C4100: 'z': unreferenced formal parameter
+C:\WorkSpace\recast-unity-server\DebugUtils\Include\DebugDraw.h(214): warning C4100: 'y': unreferenced formal parameter
+C:\WorkSpace\recast-unity-server\DebugUtils\Include\DebugDraw.h(214): warning C4100: 'x': unreferenced formal parameter
+..\..\Source\main.cpp(384): warning C4456: declaration of 't' hides previous local declaration
+  ..\..\Source\main.cpp(132): note: see declaration of 't'
+  Generating code
+  All 1226 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+sdlmain.lib(SDL_win32_main.obj) : warning LNK4049: locally defined symbol _fprintf imported
+sdlmain.lib(SDL_win32_main.obj) : warning LNK4049: locally defined symbol ___iob_func imported
+  Recast.vcxproj -> C:\WorkSpace\recast-unity-server\UnityServerDemo\Build\VC10\..\..\Bin\Recast.exe
+  Recast.vcxproj -> ..\..\Bin\Recast.pdb (Full PDB)

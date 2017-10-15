@@ -1,0 +1,5 @@
+﻿MSVCRTD.lib(initializers.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+sdlmain.lib(SDL_win32_main.obj) : warning LNK4217: locally defined symbol fprintf imported in function ShowError
+sdlmain.lib(SDL_win32_main.obj) : warning LNK4217: locally defined symbol __iob_func imported in function ShowError
+  Recast.vcxproj -> C:\WorkSpace\recast-unity-server\UnityServerDemo\Build\VC10\x64\Debug\Recast.exe
+  Recast.vcxproj -> C:\WorkSpace\recast-unity-server\UnityServerDemo\Build\VC10\x64\Debug\Recast.pdb (Full PDB)

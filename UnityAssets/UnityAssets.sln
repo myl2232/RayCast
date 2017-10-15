@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityAssets", "UnityAssets.csproj", "{B89E0038-945E-845D-1A1C-57AA5E680343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityAssets.Editor", "UnityAssets.Editor.csproj", "{DFC817D2-FFE4-ACC1-295B-B0719197CCB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B89E0038-945E-845D-1A1C-57AA5E680343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B89E0038-945E-845D-1A1C-57AA5E680343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B89E0038-945E-845D-1A1C-57AA5E680343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B89E0038-945E-845D-1A1C-57AA5E680343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC817D2-FFE4-ACC1-295B-B0719197CCB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC817D2-FFE4-ACC1-295B-B0719197CCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC817D2-FFE4-ACC1-295B-B0719197CCB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC817D2-FFE4-ACC1-295B-B0719197CCB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

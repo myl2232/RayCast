@@ -1,0 +1,62 @@
+﻿  RecastRegion.cpp
+  RecastRasterization.cpp
+  RecastMeshDetail.cpp
+  RecastMesh.cpp
+  RecastLayers.cpp
+  RecastFilter.cpp
+  RecastContour.cpp
+  RecastArea.cpp
+  RecastAlloc.cpp
+  Recast.cpp
+  UnityTileMesh.cpp
+  UnityPluginInterface.cpp
+c:\workspace\recast-unity-server\interface\unityplugininterface.cpp(254): warning C4018: '>=': signed/unsigned mismatch
+c:\workspace\recast-unity-server\interface\unityplugininterface.cpp(305): warning C4018: '>=': signed/unsigned mismatch
+  UnityNavMesh.cpp
+c:\workspace\recast-unity-server\interface\unitynavmesh.cpp(157): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+  UnityInputMesh.cpp
+c:\workspace\recast-unity-server\interface\unityinputmesh.cpp(142): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\workspace\recast-unity-server\interface\unityinputmesh.cpp(182): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\workspace\recast-unity-server\interface\unityinputmesh.cpp(230): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+  InputGeom.cpp
+c:\workspace\recast-unity-server\interface\inputgeom.cpp(168): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\workspace\recast-unity-server\interface\inputgeom.cpp(196): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\workspace\recast-unity-server\interface\inputgeom.cpp(253): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\workspace\recast-unity-server\interface\inputgeom.cpp(268): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\workspace\recast-unity-server\interface\inputgeom.cpp(273): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\workspace\recast-unity-server\interface\inputgeom.cpp(288): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  ChunkyTriMesh.cpp
+  DetourNode.cpp
+  DetourNavMeshQuery.cpp
+  DetourNavMeshBuilder.cpp
+  DetourNavMesh.cpp
+  Generating Code...
+  Compiling...
+  DetourCommon.cpp
+  DetourAlloc.cpp
+  DetourTileCacheBuilder.cpp
+  DetourTileCache.cpp
+  DetourProximityGrid.cpp
+  DetourPathQueue.cpp
+  DetourPathCorridor.cpp
+  DetourObstacleAvoidance.cpp
+  DetourLocalBoundary.cpp
+  DetourCrowd.cpp
+  RecastDump.cpp
+  RecastDebugDraw.cpp
+  DetourDebugDraw.cpp
+  DebugDraw.cpp
+  Generating Code...
+     Creating library C:\WorkSpace\recast-unity-server\UnityBuild\VS2010\../../UnityBuild/Debug\recast-unity.lib and object C:\WorkSpace\recast-unity-server\UnityBuild\VS2010\../../UnityBuild/Debug\recast-unity.exp
+  recast-unity.vcxproj -> C:\WorkSpace\recast-unity-server\UnityBuild\VS2010\../../UnityBuild/Debug\recast-unity.dll
+  recast-unity.vcxproj -> C:\WorkSpace\recast-unity-server\UnityBuild\VS2010\../../UnityBuild/Debug\recast-unity.pdb (Full PDB)
